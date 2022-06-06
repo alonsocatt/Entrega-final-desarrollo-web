@@ -1,0 +1,24 @@
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    padding-top: 450px;
+    padding-left: 20px;
+    margin-left: 20px;
+    color: rgb(14, 19, 31);
+    font-size: 18px;
+    font-family: "Overlock SC";
+}
+
+.footerhome{
+    color: rgb(14, 19, 31);
+    float: right;
+    margin-top: -85px;
+    margin-right: 300px;
+    font-size: 17px;
+    font-family: "Palanquin";
+}

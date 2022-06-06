@@ -1,24 +1,127 @@
 
 * {
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.header{
-    position: fixed;
-    padding-top: 450px;
+
+.logo{
+    width: 80px;
+    height: 60px;
+}
+
+.navbar{
+    background-color: rgba(160, 109, 154, 0.653) !important;
+}
+
+.nav-link{
+    float: right;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.contenedorTitulo{
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+    height: 545px;
+    background-color: rgba(91, 94, 93, 0.253); 
+}
+
+.contenedorTituloPedidos{
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+    height: 700px;
+    background-color: rgba(91, 94, 93, 0.253); 
+}
+
+.contenedorFondoPedidos{
+    margin: 0%;
+    float: right;
+    width: 50%;
+    height: 700px;
+    background-color: rgba(91, 94, 93, 0.253);   
+}
+
+.contenedorTitulo h1{
     padding-left: 20px;
-    margin-left: 20px;
-    color: rgb(14, 19, 31);
-    font-size: 18px;
-    font-family: "Overlock SC";
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedorTituloNosotros{
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+    height: 490px;
+    background-color: rgba(91, 94, 93, 0.253); 
+}
+
+.contenedorTitulo p{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedorTituloNosotros p{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedorFondo{
+    margin: 0%;
+    float: right;
+    width: 50%;
+    height: 545px;
+    background-color: rgba(91, 94, 93, 0.253);   
+}
+
+.bi{
+    color: rgb(158, 49, 144);
+    margin-left: 520px;
+    margin-top: 10px;
+}
+
+.contenedorCarrusel{
+    padding: 30px;
+    margin: 0%;
+    float: right;
+    width: 50%;
+    height: 490px;
+    background-color: rgba(91, 94, 93, 0.253);   
+}
+
+.fondo{
+    padding-top: 60px;
+    padding-left: 230px;
 }
 
 .footerhome{
     color: rgb(14, 19, 31);
     float: right;
-    margin-top: -85px;
+    margin-top: -40px;
     margin-right: 300px;
     font-size: 17px;
-    font-family: "Palanquin";
+}
+
+#mapa{
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
 }
